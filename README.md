@@ -56,7 +56,7 @@ This means your **Daily Cost** sensor reflects not only the electricity you used
 5. Download and **restart Home Assistant**.
 
 ### Manual Installation
-1. Clone this repository into `/config/custom_components/smart_energy_cost/`.
+1. Clone this repository into `/config/custom_components/smart_energy_cost_and_meter/`.
 2. Restart Home Assistant.
 
 ## ⚙️ Setup Guide
