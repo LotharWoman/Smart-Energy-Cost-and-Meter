@@ -1,4 +1,4 @@
-DOMAIN = "smart_energy_cost"
+DOMAIN = "smart_energy_cost_and_meter"
 
 CONF_ENERGY_SENSOR = "energy_sensor"
 CONF_FIXED_PRICE = "fixed_price"
