@@ -1,0 +1,20 @@
+set_value:
+  name: Zählerstand setzen
+  description: >-
+    Setzt den Wert eines Smart-Energy-Sensors (Startwert oder Korrektur,
+    z. B. nach einer Zählerablesung). Der Wert wird gespeichert und von dort
+    aus weitergezählt.
+  target:
+    entity:
+      integration: smart_energy_cost_and_meter
+      domain: sensor
+  fields:
+    value:
+      name: Wert
+      description: Neuer Zählerstand in der Einheit des Sensors (kWh bzw. EUR).
+      required: true
+      example: 1234.5
+      selector:
+        number:
+          step: any
+          mode: box
