@@ -51,7 +51,7 @@ This means your **Daily Cost** sensor reflects not only the electricity you used
 ### Via HACS (Recommended)
 1. Open **HACS** $\rightarrow$ **Integrations**.
 2. Click the three dots (top right) $\rightarrow$ **Custom repositories**.
-3. Paste: `https://github.com/LotharWoman/Smart-Energy-Cost`
+3. Paste: `https://github.com/LotharWoman/Smart-Energy-Cost-and-Meter`
 4. Select **Integration** as category $\rightarrow$ **Add**.
 5. Download and **restart Home Assistant**.
 
