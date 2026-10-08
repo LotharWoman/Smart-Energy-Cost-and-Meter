@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Energy Cost & Meter",
+        "description": "Configurez votre suivi intelligent des coûts et de la consommation d'énergie.",
+        "data": {
+          "energy_sensor": "Capteur d'énergie",
+          "fixed_price": "Prix fixe (€/kWh)",
+          "price_sensor": "Capteur de prix dynamique (€/kWh)",
+          "monthly_fee": "Frais mensuels (€)",
+          "fee_time": "Heure d'imputation des frais",
+          "enabled_sensors": "Capteurs activés"
+        },
+        "data_description": {
+          "energy_sensor": "Sélectionnez un capteur d'énergie continu en kWh à progression constante.",
+          "price_sensor": "Optionnel. Si configuré, les prix dynamiques prévalent. Le prix fixe sert de secours.",
+          "monthly_fee": "Entrez vos frais fixes mensuels ici.",
+          "fee_time": "Entrez l'heure quotidienne à laquelle vos frais fixes sont ajoutés proportionnellement."
+        }
+      }
+    },
+    "error": {
+      "unknown": "Une erreur inattendue est survenue."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Modifier Smart Energy Cost & Meter",
+        "data": {
+          "energy_sensor": "Capteur d'énergie",
+          "fixed_price": "Prix fixe (€/kWh)",
+          "price_sensor": "Capteur de prix dynamique (€/kWh)",
+          "monthly_fee": "Frais mensuels (€)",
+          "fee_time": "Heure d'imputation des frais",
+          "enabled_sensors": "Capteurs activés"
+        },
+        "data_description": {
+          "energy_sensor": "Sélectionnez un capteur d'énergie continu en kWh à progression constante.",
+          "price_sensor": "Optionnel. Si configuré, les prix dynamiques prévalent. Le prix fixe sert de secours.",
+          "monthly_fee": "Entrez vos frais fixes mensuels ici.",
+          "fee_time": "Entrez l'heure quotidienne à laquelle vos frais fixes sont ajoutés proportionnellement."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Energy Cost & Meter",
+        "description": "Configura el seguimiento inteligente de costes y consumo de energía.",
+        "data": {
+          "energy_sensor": "Sensor de energía",
+          "fixed_price": "Precio fijo (€/kWh)",
+          "price_sensor": "Sensor de precio dinámico (€/kWh)",
+          "monthly_fee": "Cuota mensual (€)",
+          "fee_time": "Hora de imputación de cuota",
+          "enabled_sensors": "Sensores habilitados"
+        },
+        "data_description": {
+          "energy_sensor": "Selecciona un sensor de energía continuo en kWh de incremento constante.",
+          "price_sensor": "Opcional. Si se establece, los precios dinámicos tienen prioridad. El precio fijo sirve como alternativa.",
+          "monthly_fee": "Introduce tu cuota fija mensual aquí.",
+          "fee_time": "Introduce la hora diaria en la que se añade proporcionalmente la cuota fija."
+        }
+      }
+    },
+    "error": {
+      "unknown": "Ha ocurrido un error inesperado."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Editar Smart Energy Cost & Meter",
+        "data": {
+          "energy_sensor": "Sensor de energía",
+          "fixed_price": "Precio fijo (€/kWh)",
+          "price_sensor": "Sensor de precio dinámico (€/kWh)",
+          "monthly_fee": "Cuota mensual (€)",
+          "fee_time": "Hora de imputación de cuota",
+          "enabled_sensors": "Sensores habilitados"
+        },
+        "data_description": {
+          "energy_sensor": "Selecciona un sensor de energía continuo en kWh de incremento constante.",
+          "price_sensor": "Opcional. Si se establece, los precios dinámicos tienen prioridad. El precio fijo sirve como alternativa.",
+          "monthly_fee": "Introduce tu cuota fija mensual aquí.",
+          "fee_time": "Introduce la hora diaria en la que se añade proporcionalmente la cuota fija."
+        }
+      }
+    }
+  }
+}

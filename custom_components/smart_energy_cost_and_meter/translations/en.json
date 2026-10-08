@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Energy Cost & Meter",
+        "description": "Configure your smart energy cost and consumption tracking.",
+        "data": {
+          "energy_sensor": "Energy Sensor",
+          "fixed_price": "Fixed Price (€/kWh)",
+          "price_sensor": "Dynamic Price Sensor (€/kWh)",
+          "monthly_fee": "Monthly Fee (€)",
+          "fee_time": "Fee Time",
+          "enabled_sensors": "Enabled Sensors"
+        },
+        "data_description": {
+          "energy_sensor": "Select a continuous, steadily increasing energy sensor in kWh.",
+          "price_sensor": "Optional. If set, dynamic prices take precedence. The fixed price then serves as a fallback.",
+          "monthly_fee": "Enter your monthly fixed base fee here.",
+          "fee_time": "Enter the daily time at which your base fee is added proportionally."
+        }
+      }
+    },
+    "error": {
+      "unknown": "Unexpected error occurred."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit Smart Energy Cost & Meter",
+        "data": {
+          "energy_sensor": "Energy Sensor",
+          "fixed_price": "Fixed Price (€/kWh)",
+          "price_sensor": "Dynamic Price Sensor (€/kWh)",
+          "monthly_fee": "Monthly Fee (€)",
+          "fee_time": "Fee Time",
+          "enabled_sensors": "Enabled Sensors"
+        },
+        "data_description": {
+          "energy_sensor": "Select a continuous, steadily increasing energy sensor in kWh.",
+          "price_sensor": "Optional. If set, dynamic prices take precedence. The fixed price then serves as a fallback.",
+          "monthly_fee": "Enter your monthly fixed base fee here.",
+          "fee_time": "Enter the daily time at which your base fee is added proportionally."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Energy Cost & Meter",
+        "description": "Configureer uw slimme energie- en kostenstroommeting.",
+        "data": {
+          "energy_sensor": "Energiesensor",
+          "fixed_price": "Vaste prijs (€/kWh)",
+          "price_sensor": "Dynamische prijssensor (€/kWh)",
+          "monthly_fee": "Maandelijkse vastrechtkosten (€)",
+          "fee_time": "Tijdstip vastrecht",
+          "enabled_sensors": "Ingeschakelde sensoren"
+        },
+        "data_description": {
+          "energy_sensor": "Selecteer een continu oplopende energiesensor in kWh.",
+          "price_sensor": "Optioneel. Indien ingesteld hebben dynamische prijzen voorrang. De vaste prijs dient als terugvaloptie.",
+          "monthly_fee": "Voer hier uw maandelijkse vaste basiskosten/vastrecht in.",
+          "fee_time": "Voer het dagelijkse tijdstip in waarop uw basiskosten naar verhouding worden toegevoegd."
+        }
+      }
+    },
+    "error": {
+      "unknown": "Er is een onverwachte fout opgetreden."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bewerk Smart Energy Cost & Meter",
+        "data": {
+          "energy_sensor": "Energiesensor",
+          "fixed_price": "Vaste prijs (€/kWh)",
+          "price_sensor": "Dynamische prijssensor (€/kWh)",
+          "monthly_fee": "Maandelijkse vastrechtkosten (€)",
+          "fee_time": "Tijdstip vastrecht",
+          "enabled_sensors": "Ingeschakelde sensoren"
+        },
+        "data_description": {
+          "energy_sensor": "Selecteer een continu oplopende energiesensor in kWh.",
+          "price_sensor": "Optioneel. Indien ingesteld hebben dynamische prijzen voorrang. De vaste prijs dient als terugvaloptie.",
+          "monthly_fee": "Voer hier uw maandelijkse vaste basiskosten/vastrecht in.",
+          "fee_time": "Voer het dagelijkse tijdstip in waarop uw basiskosten naar verhouding worden toegevoegd."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Energy Cost & Meter",
+        "description": "Configura il monitoraggio intelligente dei costi e dei consumi energetici.",
+        "data": {
+          "energy_sensor": "Sensore di energia",
+          "fixed_price": "Prezzo fisso (€/kWh)",
+          "price_sensor": "Sensore prezzo dinamico (€/kWh)",
+          "monthly_fee": "Canone mensile (€)",
+          "fee_time": "Orario di addebito canone",
+          "enabled_sensors": "Sensori abilitati"
+        },
+        "data_description": {
+          "energy_sensor": "Seleziona un sensore di energia continuo in kWh a incremento costante.",
+          "price_sensor": "Opzionale. Se impostato, i prezzi dinamici hanno la priorità. Il prezzo fisso funge da riserva.",
+          "monthly_fee": "Inserisci qui il tuo canone fisso mensile.",
+          "fee_time": "Inserisci l'ora giornaliera in cui il canone fisso viene aggiunto proporzionalmente."
+        }
+      }
+    },
+    "error": {
+      "unknown": "Si è verificato un errore imprevisto."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Modifica Smart Energy Cost & Meter",
+        "data": {
+          "energy_sensor": "Sensore di energia",
+          "fixed_price": "Prezzo fisso (€/kWh)",
+          "price_sensor": "Sensore prezzo dinamico (€/kWh)",
+          "monthly_fee": "Canone mensile (€)",
+          "fee_time": "Orario di addebito canone",
+          "enabled_sensors": "Sensori abilitati"
+        },
+        "data_description": {
+          "energy_sensor": "Seleziona un sensore di energia continuo in kWh a incremento costante.",
+          "price_sensor": "Opzionale. Se impostato, i prezzi dinamici hanno la priorità. Il prezzo fisso funge da riserva.",
+          "monthly_fee": "Inserisci qui il tuo canone fisso mensile.",
+          "fee_time": "Inserisci l'ora giornaliera in cui il canone fisso viene aggiunto proporzionalmente."
+        }
+      }
+    }
+  }
+}

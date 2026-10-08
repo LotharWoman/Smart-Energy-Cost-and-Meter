@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Energy Cost & Meter",
+        "description": "Konfigurieren Sie Ihre intelligente Stromkosten- und Verbrauchserfassung.",
+        "data": {
+          "energy_sensor": "Energiesensor",
+          "fixed_price": "Festpreis (€/kWh)",
+          "price_sensor": "Dynamischer Preissensor (€/kWh)",
+          "monthly_fee": "Monatliche Grundgebühr (€)",
+          "fee_time": "Abrechnungszeitpunkt",
+          "enabled_sensors": "Aktivierte Sensoren"
+        },
+        "data_description": {
+          "energy_sensor": "Wählen Sie einen kontinuierlich ansteigenden Energiesensor in kWh aus.",
+          "price_sensor": "Optional. Falls gesetzt, haben dynamische Preise Vorrang. Der Festpreis dient als Fallback.",
+          "monthly_fee": "Geben Sie hier Ihre monatliche Festpreis-Grundgebühr ein.",
+          "fee_time": "Geben Sie die tägliche Uhrzeit ein, zu der Ihre Grundgebühr anteilig hinzugerechnet wird."
+        }
+      }
+    },
+    "error": {
+      "unknown": "Unerwarteter Fehler aufgetreten."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Smart Energy Cost & Meter bearbeiten",
+        "data": {
+          "energy_sensor": "Energiesensor",
+          "fixed_price": "Festpreis (€/kWh)",
+          "price_sensor": "Dynamischer Preissensor (€/kWh)",
+          "monthly_fee": "Monatliche Grundgebühr (€)",
+          "fee_time": "Abrechnungszeitpunkt",
+          "enabled_sensors": "Aktivierte Sensoren"
+        },
+        "data_description": {
+          "energy_sensor": "Wählen Sie einen kontinuierlich ansteigenden Energiesensor in kWh aus.",
+          "price_sensor": "Optional. Falls gesetzt, haben dynamische Preise Vorrang. Der Festpreis dient als Fallback.",
+          "monthly_fee": "Geben Sie hier Ihre monatliche Festpreis-Grundgebühr ein.",
+          "fee_time": "Geben Sie die tägliche Uhrzeit ein, zu der Ihre Grundgebühr anteilig hinzugerechnet wird."
+        }
+      }
+    }
+  }
+}
