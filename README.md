@@ -23,6 +23,7 @@ The integration automatically generates a comprehensive set of sensors for diffe
 - **Weekly**
 - **Daily**
 - **Hourly**
+- **QuarterHourly**
 
 ### 🛠 User-Friendly Configuration
 Everything is handled via the Home Assistant UI. No YAML hacking is required. You can define:
