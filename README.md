@@ -55,8 +55,9 @@ So your **Daily Cost** sensor reflects not only the electricity used today but a
 
 ## 📸 Gallery
 - **Integration Menu:** ![Integration Menu](screenshots/over.jpg)
-- **Entity List:** ![Entities](screenshots/entiti.jpg)
+- **Config Dialog:** ![Configuration](screenshots/action.jpg)
 - **Config Dialog:** ![Configuration](screenshots/config.jpg)
+- **Entity List:** ![Entities](screenshots/entiti.jpg)
 
 ## 🛠 Installation
 
