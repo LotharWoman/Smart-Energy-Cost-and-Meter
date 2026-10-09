@@ -55,8 +55,9 @@ Dein **Tageskosten**-Sensor zeigt damit nicht nur den heute verbrauchten Strom, 
 
 ## 📸 Galerie
 - **Integrationsmenü:** ![Integrationsmenü](screenshots/over.jpg)
-- **Entitätenliste:** ![Entitäten](screenshots/entiti.jpg)
+- **Werkzeug->Aktionen:** ![Integrationsmenü](screenshots/action.jpg)
 - **Konfigurationsdialog:** ![Konfiguration](screenshots/config.jpg)
+- **Entitätenliste:** ![Entitäten](screenshots/entiti.jpg)
 
 ## 🛠 Installation
 
